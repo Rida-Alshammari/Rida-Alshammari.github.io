@@ -533,11 +533,15 @@ a {
 
 .gallery-project-link {
   text-align: center;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .gallery-project-link a {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
   font-size: 1.2rem;
   color: #2c3e50;
   transition: 0.5s;
